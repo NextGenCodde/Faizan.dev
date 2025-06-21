@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Faizan.dev - Personal Portfolio Website
 
 A modern, responsive personal portfolio website built with Next.js and Chakra UI.
@@ -109,3 +110,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 ⭐ Star this repository if you found it helpful! 
+=======
+# Faizan.dev
+>>>>>>> fca22620881dd2efed7faf820b2e9aeb78aa422d
