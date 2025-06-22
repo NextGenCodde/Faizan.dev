@@ -31,6 +31,11 @@ export default function Projects({ projects }) {
             content="Passionate frontend developer based in Pakistan, crafting digital experiences with modern web technologies"
             name="description"
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <meta name="mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-capable" content="yes" />
+          <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+          <meta name="apple-mobile-web-app-title" content="Faizan Khalid" />
 
           <meta content="website" property="og:type" />
           <meta content="https://abdulrahman.id/projects" property="og:url" />
@@ -134,7 +139,7 @@ export async function getStaticProps() {
           frontmatter: {
             slug: "maher-digital-services",
             summary: "Service-based agency website for digital tools, hosting, SEO, and web services.",
-            image: "/maher-digital-service.png ",
+            image: "/maher-digital-service.png",
             techStack: "Html, CSS , Javascript",
             date: "2023-12-28",
             deployLink: "https://maherdigital.site/"
@@ -147,7 +152,7 @@ export async function getStaticProps() {
           frontmatter: {
             slug: "neodrift-3d",
             summary: "3D template using Spline or three.js with cool Effects and Animations.",
-            image: "/neodrift.png ",
+            image: "/neodrift.png",
             techStack: "Html, CSS , Three.js , Spline",
             date: "2023-12-28",
             deployLink: "https://nextgencodde.github.io/neodrift/"
