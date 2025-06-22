@@ -2,6 +2,8 @@ import { ChakraProvider } from '@chakra-ui/react'
 import customTheme from '../styles/theme'
 import { Global, css } from '@emotion/react'
 import { prismDarkTheme } from '../styles/prism'
+import Head from 'next/head'
+
 const GlobalStyle = ({ children }) => {
   return (
     <>
@@ -46,6 +48,14 @@ const GlobalStyle = ({ children }) => {
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider resetCSS theme={customTheme}>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Ubuntu:wght@500&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <GlobalStyle>
         <Component {...pageProps} />
       </GlobalStyle>

@@ -21,7 +21,7 @@ export default function Index({ introduction, projects, contactMe }) {
           />
 
           <meta content="website" property="og:type" />
-          <meta content="https://abdulrahman.id" property="og:url" />
+          <meta content="faizankhalid.vercel.app" property="og:url" />
           <meta
             content="Faizan Khalid - Frontend Developer"
             property="og:title"

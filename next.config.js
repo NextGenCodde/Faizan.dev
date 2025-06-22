@@ -9,4 +9,7 @@ module.exports = {
       'github.com',
     ],
   },
+  experimental: {
+    optimizeFonts: true,
+  },
 }

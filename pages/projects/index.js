@@ -38,7 +38,7 @@ export default function Projects({ projects }) {
           <meta name="apple-mobile-web-app-title" content="Faizan Khalid" />
 
           <meta content="website" property="og:type" />
-          <meta content="https://abdulrahman.id/projects" property="og:url" />
+          <meta content="faizankhalid.vercel.app/projects" property="og:url" />
           <meta
             content="Faizan Khalid - Frontend Developer"
             property="og:title"
