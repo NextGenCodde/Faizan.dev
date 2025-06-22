@@ -51,19 +51,19 @@ export default function Projects({ projects }) {
         </Head>
         <Stack
           justifyContent="center"
-          my={{ base: '15vh', md: '16vh' }}
-          spacing={10}
+          my={{ base: '10vh', md: '16vh' }}
+          spacing={{ base: 6, md: 10 }}
         >
-          <Stack spacing={5}>
+          <Stack spacing={{ base: 4, md: 5 }}>
             {' '}
-            <Heading color="displayColor" fontSize={{ base: '4xl', md: '6xl' }}>
+            <Heading color="displayColor" fontSize={{ base: '3xl', md: '6xl' }}>
               Projects
             </Heading>
             <Text fontSize={{ base: '14px', md: '16px' }}>
               I love building projects and practice my engineering skills,
               here's an archive of things that I've worked on.
             </Text>
-            <InputGroup maxW="400px">
+            <InputGroup maxW={{ base: '100%', md: '400px' }}>
               <InputRightElement pointerEvents="none">
                 <FaSearch />
               </InputRightElement>
@@ -76,7 +76,7 @@ export default function Projects({ projects }) {
             </InputGroup>
             <Divider />
           </Stack>
-          <SimpleGrid columns={{ sm: 1, md: 2 }} spacing={8}>
+          <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 6, md: 8 }}>
             {projects
               .filter((e) =>
                 e.title.toLowerCase().includes(query.toLowerCase()),

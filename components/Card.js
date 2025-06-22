@@ -143,6 +143,9 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
               style={{
                 borderRadius: '10px 10px 0px 0px',
                 objectFit: 'cover',
+                width: '100%',
+                height: 'auto',
+                maxWidth: '100%',
               }}
               alt={title}
               src={imageURL}

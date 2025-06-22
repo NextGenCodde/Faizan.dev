@@ -21,9 +21,10 @@ const Container = ({ enableTransition, children }) => {
       <Box
         w={{ base: '100%', md: '70rem' }}
         mx={{ base: '0', md: 'auto' }}
-        px={{ base: '22px', lg: 0 }}
+        px={{ base: '16px', md: '22px', lg: 0 }}
         py={4}
         transition="0.4s"
+        overflow="hidden"
       >
         <Navbar enableTransition={enableTransition} />
         <Flex as="main" justify="center" direction="column">
