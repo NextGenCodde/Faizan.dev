@@ -132,8 +132,8 @@ export default function AboutMe() {
                 h={{ base: '300px', lg: '350px' }}
                 objectFit="cover"
                 borderRadius="50%"
-                alt="Abdul Rahman"
-                src="https://i.imgur.com/jk8NmSx.jpeg"
+                alt="Faizan Khalid"
+                src="/personal.png"
               />
             </Box>
           </Flex>
