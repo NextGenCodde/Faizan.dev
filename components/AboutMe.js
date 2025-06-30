@@ -80,12 +80,12 @@ export default function AboutMe() {
                 text="coding tools"
               />
               Currently, I'm mastering the MERN Stack, with my frontend skills
-              polished and production-ready. I'm also collaborating with{' '}
+              polished and production-ready. Breaking Keyboard instead of Girl's Heart. Started relationship with 'Bugs' at the age of 16. Developer for the mean of Money? No dude, Passionate to be an {' '}
               <MoreInfo
                 content={
-                  'a growing startup, where we build stunning and performance-driven websites together'
+                  'I really like the idea of contributing new features to open source projects that can be useful to other people.'
                 }
-                text="3xIndica"
+                text="Open Source Contributor"
               />
               I'm interested in building something awesome with code and
               automate tasks with code, currently focused on
@@ -101,12 +101,7 @@ export default function AboutMe() {
               <br />
               <br />
               When I’m not coding, you’ll probably find me watching a series on
-              Netflix, gaming on my Xbox, or contributing to{' '}
-              <MoreInfo
-                content="I really like the idea of contributing new features to open source projects that can be useful to other people."
-                text="Open Source"
-              />{' '}
-              projects to give back to the dev community and learn from it.
+              Netflix, gaming on Xbox
             </Text>
           </Stack>
         </SlideUpWhenVisible>
