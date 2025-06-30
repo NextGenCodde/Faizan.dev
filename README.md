@@ -105,7 +105,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Faizan Khalid**
 - GitHub: [@NextGenCodde](https://github.com/NextGenCodde)
-- Website: [faizan.dev](https://faizan.dev)
+- Website: [faizan.dev](https://faizankhalid.vercel.app/)
 
 ---
 
