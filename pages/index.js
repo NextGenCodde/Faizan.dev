@@ -105,13 +105,13 @@ export async function getStaticProps() {
         {
           fields: {
             emoji: "👋",
-            description: "I'm a passionate Frontend developer in Pakistan"
+            description: "I'm a passionate Web developer in Pakistan"
           }
         },
         {
           fields: {
             emoji: "💼",
-            description: "Currently working at",
+            description: "Currently working as",
             company: "Freelance Developer",
             companyUrl: null
           }
