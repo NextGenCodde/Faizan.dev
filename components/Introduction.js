@@ -79,9 +79,9 @@ export default function Introduction({ introduction }) {
           whiteSpace="pre-wrap"
         >
           <Box as="span" color="displayColor">
-           Frontend Engineer · Shopify Theme Developer
+            Frontend Engineer
           </Box>{' '}
-          Project-driven • Pixel-perfect Liquid & GraphQL<br/>{' '}
+          Self-driven Developer<br/>{' '}
           {isLargerThan800
             ? 'From wireframes to checkout — I build fast, conversion-focused storefronts.'
             : 'From wireframes to checkout — I build fast, conversion-focused storefronts.'}
