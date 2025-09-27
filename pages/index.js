@@ -146,13 +146,13 @@ export async function getStaticProps() {
         },
         {
           fields: {
-            title: "Tumie",
-            slug: "tumie",
-            description: "Stylish eCommerce front showcasing pet food items with elegant UI and smooth layout.",
-            imageUrl: "/tumie.png",
-            tags: ["HTML", "Bootstrap", "Javascript"],
+            title: "1090 — Custom Sections + Features",
+            slug: "1090",
+            description: "For 1090.co.uk, I developed custom Shopify theme enhancements using Liquid, JavaScript, and CSS to elevate the user experience. I added dynamic price and discount displays, responsive product sliders, and real-time shipping date features. I built modular, editable theme sections so the client can easily manage content without developer intervention, while ensuring seamless integration and optimal performance across devices.",
+            imageUrl: "/1090.png",
+            tags: ["Shopify", "Liquid", "Javascript"],
             order: 2,
-            deployLink: "https://nextgencodde.github.io/Tumie-Website/"
+            deployLink: "https://www.1090.co.uk/"
           }
         } , 
         {
