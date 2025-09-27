@@ -65,21 +65,46 @@ export default function AboutMe() {
             <Heading fontFamily="Ubuntu" fontSize="2xl">
               ⚡ About Me
             </Heading>
-          <Text
-  color="textSecondary"
-  fontSize={{ base: '14px', md: '16px' }}
-  whiteSpace="pre-line"
->
-  I’m <strong>Faizan Khalid</strong> — <strong>Shopify Theme Developer & Frontend Engineer</strong>.
-
-  I build <MoreInfo text="conversion-first Shopify themes" content="Liquid, theme architecture, section blocks, and Shopify APIs." /> and reliable <MoreInfo text="API integrations" content="Shopify Admin & Storefront APIs, GraphQL, REST." /> that scale.
-
-  I solve real problems: <MoreInfo text="Performance" content="Core Web Vitals, code-splitting, image optimization." /> · <MoreInfo text="UX & Conversion" content="checkout UX, accessibility, A/B testing." /> · <MoreInfo text="Maintainability" content="clean Liquid, documented components, versioned code." />
-
-  <br />
-  <strong>Open to remote US / EU roles — ready to join your team and ship results.</strong>
-</Text>
-
+            <Text
+              color="textSecondary"
+              fontSize={{ base: '14px', md: '16px' }}
+              whiteSpace="pre-line"
+            >
+              Hey! I'm Faizan Khalid, a passionate developer
+              with a strong love for design and code. My journey
+              with computers started early, and over the years,
+              I've grown into a self-taught programmer with a focus
+              on creating modern, fast, and responsive websites
+               <br />
+              <br /> I really liked to build stuff using{' '}
+              <MoreInfo
+                content=" hands-on experience with React, Tailwind, NodeJS, Redux, NextJS, Liquid."
+                text="tech stack"
+              />
+              Currently, I'm the MERN Stack, and Shopify Theme Developer
+              polished and production-ready. Breaking Keyboard instead of Girl's Heart. Started relationship with 'Bugs' at the age of 16. Developer for the mean of Money? No dude, Passionate to be an {' '}
+              <MoreInfo
+                content={
+                  'I really like the idea of contributing new features to open source projects that can be useful to other people.'
+                }
+                text="Open Source Contributor"
+              />
+              I'm interested in building something awesome with code and
+              automate tasks with code, currently focused on
+              <MoreInfo
+                content="Building Web and Mobile Applications using Javascript Frameworks (React and Next.js)"
+                text="Web Development,"
+              />
+              and
+              <MoreInfo
+                content="Competitive Programming helped me to sharpen my Algorithms and Problem Solving skills."
+                text="Competitive Programming"
+              />
+              <br />
+              <br />
+              When I’m not coding, you’ll probably find me watching a series on
+              Netflix, gaming on Xbox
+            </Text>
           </Stack>
         </SlideUpWhenVisible>
         <SlideUpWhenVisible>
