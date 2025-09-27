@@ -105,12 +105,11 @@ export default function Navbar({ enableTransition }) {
                   Home
                 </Button>
               </NextLink>
-              <NextLink passHref href="/client-work">
+              <NextLink passHref href="/projects">
                 <Button as="a" p="4" fontSize="16px" variant="ghost">
-                  Clients Work
+                  Projects
                 </Button>
               </NextLink>
-           
             </Box>
           ) : (
             <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} />
