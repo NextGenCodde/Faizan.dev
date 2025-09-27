@@ -144,18 +144,6 @@ export async function getStaticProps() {
             deployLink: "https://alturadiamonds.com/pages/lab-grown-diamond-ring-design-studio?stage=Select+Setting"
           }
         },
-     
-        {
-          fields: {
-            title: "PSX Arena — AI-Powered Stock Analysis Platform ",
-            slug: "psx-arena",
-            description: "Developed PSX Arena, a stock and crypto analysis platform where users can upload their trading charts and receive AI-generated technical analysis reports powered by the ChatGPT API. Built using WordPress and JavaScript, featuring real-time chart uploads, multiple market modes (stocks & crypto), and an intelligent bot system that delivers instant insights for traders.",
-            imageUrl: "/stock-market.png",
-            tags: ["Javascript", "CHATGPT API", "Wordpress"],
-            order: 2,
-            deployLink: "https://psxarena.site/technical-analysis/"
-          }
-        },
         {
           fields: {
             title: "Tumie",
@@ -163,10 +151,21 @@ export async function getStaticProps() {
             description: "Stylish eCommerce front showcasing pet food items with elegant UI and smooth layout.",
             imageUrl: "/tumie.png",
             tags: ["HTML", "Bootstrap", "Javascript"],
-            order: 3,
+            order: 2,
             deployLink: "https://nextgencodde.github.io/Tumie-Website/"
           }
         } , 
+        {
+             fields: {
+               title: "PSX Arena — AI-Powered Stock Analysis Platform ",
+               slug: "psx-arena",
+               description: "Developed PSX Arena, a stock and crypto analysis platform where users can upload their trading charts and receive AI-generated technical analysis reports powered by the ChatGPT API. Built using WordPress and JavaScript, featuring real-time chart uploads, multiple market modes (stocks & crypto), and an intelligent bot system that delivers instant insights for traders.",
+               imageUrl: "/stock-market.png",
+               tags: ["Javascript", "CHATGPT API", "Wordpress"],
+               order: 3,
+               deployLink: "https://psxarena.site/technical-analysis/"
+             }
+        },
         {
           fields: {
             title: "Music Player",
