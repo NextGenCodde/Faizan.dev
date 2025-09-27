@@ -25,6 +25,8 @@ import {
   FaReact,
   FaSass,
   FaShopify,
+  FaServer,
+  FaTint,
 } from 'react-icons/fa'
 import {
   SiChakraui,
@@ -32,11 +34,9 @@ import {
   SiGreensock,
   SiGraphql,
   SiNextdotjs,
-  FaServer,
   SiShopify,
   SiTailwindcss,
   SiThreedotjs,
-  FaTint,
   SiSpline,
 } from 'react-icons/si'
 import useMediaQuery from '../hook/useMediaQuery'
