@@ -66,45 +66,50 @@ export default function AboutMe() {
               ⚡ About Me
             </Heading>
             <Text
-              color="textSecondary"
-              fontSize={{ base: '14px', md: '16px' }}
-              whiteSpace="pre-line"
-            >
-              Hey! I'm Faizan Khalid, a passionate developer
-              with a strong love for design and code. My journey
-              with computers started early, and over the years,
-              I've grown into a self-taught programmer with a focus
-              on creating modern, fast, and responsive websites
-               <br />
-              <br /> I really liked to build stuff using{' '}
-              <MoreInfo
-                content=" hands-on experience with React, Tailwind, NodeJS, Redux, NextJS, Liquid."
-                text="tech stack"
-              />
-              Currently, I'm the MERN Stack, and Shopify Theme Developer
-              polished and production-ready. Breaking Keyboard instead of Girl's Heart. Started relationship with 'Bugs' at the age of 16. Developer for the mean of Money? No dude, Passionate to be an {' '}
-              <MoreInfo
-                content={
-                  'I really like the idea of contributing new features to open source projects that can be useful to other people.'
-                }
-                text="Open Source Contributor"
-              />
-              I'm interested in building something awesome with code and
-              automate tasks with code, currently focused on
-              <MoreInfo
-                content="Building Web and Mobile Applications using Javascript Frameworks (React and Next.js)"
-                text="Web Development,"
-              />
-              and
-              <MoreInfo
-                content="Competitive Programming helped me to sharpen my Algorithms and Problem Solving skills."
-                text="Competitive Programming"
-              />
-              <br />
-              <br />
-              When I’m not coding, you’ll probably find me watching a series on
-              Netflix, gaming on Xbox
-            </Text>
+  color="textSecondary"
+  fontSize={{ base: '14px', md: '16px' }}
+  whiteSpace="pre-line"
+>
+  Hey! I'm Faizan Khalid — a passionate developer who loves both design and code. I started with computers early and evolved into a hands-on programmer focused on building modern, fast, and responsive websites.
+
+  <br />
+  <br />
+  I like to build things using{' '}
+  <MoreInfo
+    content="Liquid, Shopify Admin & Storefront APIs, GraphQL, React, Next.js, Redux, Node.js, Tailwind, MongoDB, REST, Git."
+    text="tech stack"
+  />
+  — shipping polished, production-ready storefronts and integrations.
+
+  Currently, I work as a MERN Stack & Shopify Theme Developer, delivering <MoreInfo content="conversion-focused themes" text="high-impact themes" /> and reliable <MoreInfo content="Shopify Admin & Storefront API work, GraphQL, and REST integrations." text="API integrations" />. I started debugging code at 16, so I love solving hard problems and improving stores end-to-end.
+
+  <br />
+  <br />
+  I’m driven to build useful tools and contribute back as an{' '}
+  <MoreInfo
+    content="I contribute features and fixes to open-source projects that help other developers and stores."
+    text="Open Source Contributor"
+  />
+  . Right now my focus is on{' '}
+  <MoreInfo
+    content="Building web applications and storefronts using React, Next.js, and modern frontend tooling."
+    text="Web Development"
+  />
+  , and I keep sharpening my problem solving with{' '}
+  <MoreInfo
+    content="Competitive programming for algorithms and faster debugging."
+    text="Competitive Programming"
+  />
+  .
+
+  <br />
+  <br />
+  <strong>Open to remote US / EU roles — ready to join your team and ship results.</strong>
+  <br />
+  <br />
+  When I’m not building, you’ll find me watching a series or gaming on Xbox 🎮.
+</Text>
+
           </Stack>
         </SlideUpWhenVisible>
         <SlideUpWhenVisible>
