@@ -79,12 +79,12 @@ export default function Introduction({ introduction }) {
           whiteSpace="pre-wrap"
         >
           <Box as="span" color="displayColor">
-            Frontend Developer
+           Frontend Engineer · Shopify Theme Developer
           </Box>{' '}
-          A self-taught developer <br/>{' '}
+          Project-driven • Pixel-perfect Liquid & GraphQL<br/>{' '}
           {isLargerThan800
-            ? 'From wireframes to web apps — I make it happen.'
-            : 'From wireframes to web apps — I make it happen.'}
+            ? 'From wireframes to checkout — I build fast, conversion-focused storefronts.'
+            : 'From wireframes to checkout — I build fast, conversion-focused storefronts.'}
         </Heading>
       </SlideFade>
 

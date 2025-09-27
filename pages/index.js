@@ -12,8 +12,8 @@ export default function Index({ introduction, projects, contactMe }) {
     <>
       <Container enableTransition={true}>
         <Head>
-          <title>Faizan Khalid - Frontend Developer</title>
-          <meta content="Faizan Khalid - Frontend Developer" name="title" />
+          <title>Faizan Khalid - Frontend Engineer</title>
+          <meta content="Faizan Khalid - Frontend Engineer" name="title" />
           <meta content="Fazi, Fazi website" name="keywords" />
           <meta
             content="Passionate frontend developer based in Pakistan, crafting digital experiences with modern web technologies"
