@@ -76,10 +76,10 @@ export default function AboutMe() {
               focus on creating modern, fast, and responsive websites <br />
               <br /> I really liked to build stuff using{' '}
               <MoreInfo
-                content=" hands-on experience with HTML, CSS, JavaScript, Bootstrap, TailwindCSS, React, and animation libraries like GSAP. I also work with advanced UI libraries such as Material UI, ShadCN, Magic UI, Universo, and more—crafting sleek and interactive frontend experiences is what I do best."
-                text="coding tools"
+                content=" hands-on experience with React, Tailwind, NodeJS, Redux, NextJS, Liquid."
+                text="tech stack"
               />
-              Currently, I'm mastering the MERN Stack, with my frontend skills
+              Currently, I'm the MERN Stack, and Shopify Theme Developer
               polished and production-ready. Breaking Keyboard instead of Girl's Heart. Started relationship with 'Bugs' at the age of 16. Developer for the mean of Money? No dude, Passionate to be an {' '}
               <MoreInfo
                 content={
@@ -128,7 +128,7 @@ export default function AboutMe() {
                 objectFit="cover"
                 borderRadius="50%"
                 alt="Faizan Khalid"
-                src="/personal.png"
+                src="/personal.jpg"
               />
             </Box>
           </Flex>
