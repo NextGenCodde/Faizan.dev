@@ -104,10 +104,9 @@ export default function AboutMe() {
 
   <br />
   <br />
-  <strong>Open to remote US / EU roles — ready to join your team and ship results.</strong>
+  Available for remote roles — open to full-time & contract.
   <br />
   <br />
-  When I’m not building, you’ll find me watching a series or gaming on Xbox 🎮.
 </Text>
 
           </Stack>
