@@ -36,7 +36,7 @@ export default function FeaturedProjects({ projects }) {
                   fontFamily="Ubuntu"
                   fontSize={{ base: 'xl', md: '2xl' }}
                 >
-                  All Client Works.
+                  Some of My Client Works.
                 </Heading>
                 <NextLink passHref href="/projects">
                   <Link
