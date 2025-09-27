@@ -132,6 +132,7 @@ export default function AboutMe() {
                 w={{ base: '300px', lg: '350px' }}
                 h={{ base: '300px', lg: '350px' }}
                 objectFit="cover"
+                object-position="top"
                 borderRadius="50%"
                 alt="Faizan Khalid"
                 src="/personal.jpg"
