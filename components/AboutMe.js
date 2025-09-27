@@ -70,10 +70,15 @@ export default function AboutMe() {
               fontSize={{ base: '14px', md: '16px' }}
               whiteSpace="pre-line"
             >
-              Hey! I'm Faizan Khalid, a passionate developer with a strong love
-              for design and code. My journey with computers started early, and
-              over the years, I've grown into a self-taught programmer with a
-              focus on creating modern, fast, and responsive websites <br />
+              a Shopify Theme Developer and Full-Stack Engineer with
+              a passion for building modern, fast, and conversion-focused
+              online stores.
+              I understand what store owners and agencies are looking for:
+              <li>Themes that load fast and boost sales</li>
+              <li>Custom features built with Liquid, REST & GraphQL APIs</li>
+              <li>Responsive, pixel-perfect design that works on every device</li>
+              <li>Clean, maintainable code that’s easy for teams to scale</li>
+               <br />
               <br /> I really liked to build stuff using{' '}
               <MoreInfo
                 content=" hands-on experience with React, Tailwind, NodeJS, Redux, NextJS, Liquid."

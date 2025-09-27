@@ -83,8 +83,8 @@ export default function Introduction({ introduction }) {
           </Box>{' '}
           Self-driven Developer<br/>{' '}
           {isLargerThan800
-            ? 'From wireframes to checkout — I build fast, conversion-focused storefronts.'
-            : 'From wireframes to checkout — I build fast, conversion-focused storefronts.'}
+            ? 'From wireframes to checkout — I build fast, conversion-focused Web Apps.'
+            : 'From wireframes to checkout — I build fast, conversion-focused Web Apps.'}
         </Heading>
       </SlideFade>
 
@@ -141,7 +141,7 @@ export default function Introduction({ introduction }) {
               Github
             </Button>
           </Link>
-          <Link href="https://www.linkedin.com/in/faizan-khalid-54b3a42a2/" isExternal>
+          <Link href="http://linkedin.com/in/faizan-khalid-dev/" isExternal>
             <Button
               pos="static"
               color="white"

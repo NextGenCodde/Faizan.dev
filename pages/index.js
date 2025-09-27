@@ -105,14 +105,14 @@ export async function getStaticProps() {
         {
           fields: {
             emoji: "👋",
-            description: "Based in Pakistan — I design & code production Shopify themes."
+            description: "Based in Pakistan — I design & code production Websites."
           }
         },
         {
           fields: {
             emoji: "💼",
             description: "Freelance Developer — Open to remote & full-time",
-            company: "Shopify roles.",
+            company: "developer roles.",
             companyUrl: null
           }
         }
