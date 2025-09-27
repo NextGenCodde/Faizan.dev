@@ -57,7 +57,7 @@ export default function FeaturedProjects({ projects }) {
               <Text color="textSecondary" fontSize={{ base: 'md', md: 'xl' }}>
                 Here's some of my Client Work that I have worked on.
               </Text>
-              <NextLink href="/projects">
+              <NextLink href="/client-work">
                 <Link
                   onClick={() => handleClick('featuredprojects_explore more')}
                 >
