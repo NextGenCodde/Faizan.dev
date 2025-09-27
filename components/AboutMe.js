@@ -70,34 +70,14 @@ export default function AboutMe() {
   fontSize={{ base: '14px', md: '16px' }}
   whiteSpace="pre-line"
 >
-  I’m <strong>Faizan Khalid</strong> — a <strong>Shopify Theme Developer & UI/UX-focused Frontend Engineer</strong> who builds production-ready, conversion-first storefronts and reliable API integrations.
+  I’m <strong>Faizan Khalid</strong> — <strong>Shopify Theme Developer & Frontend Engineer</strong>.
+
+  I build <MoreInfo text="conversion-first Shopify themes" content="Liquid, theme architecture, section blocks, and Shopify APIs." /> and reliable <MoreInfo text="API integrations" content="Shopify Admin & Storefront APIs, GraphQL, REST." /> that scale.
+
+  I solve real problems: <MoreInfo text="Performance" content="Core Web Vitals, code-splitting, image optimization." /> · <MoreInfo text="UX & Conversion" content="checkout UX, accessibility, A/B testing." /> · <MoreInfo text="Maintainability" content="clean Liquid, documented components, versioned code." />
 
   <br />
-  <br />
-  I help teams solve the problems that slow growth and frustrate customers:
-  <br />• <strong>Faster load times</strong> and improved Core Web Vitals.
-  <br />• <strong>Higher conversions</strong> through clearer UX and checkout flows.
-  <br />• <strong>Stable, maintainable customizations</strong> that scale with the business.
-
-  <br />
-  <br />
-  I deliver clean, maintainable <strong>Liquid themes</strong>, headless / Shopify Plus solutions, and full-stack integrations. My typical workflow: <strong>audit → plan → implement → optimize → handoff</strong> — always prioritizing performance, accessibility, and measurable business outcomes.
-
-  <br />
-  <br />
-  I build with{' '}
-  <MoreInfo
-    content="Liquid, Shopify Admin & Storefront APIs, GraphQL, React, Next.js, Redux, Node.js, Tailwind, MongoDB, REST, Git."
-    text="this tech stack"
-  />
-  and have experience working remotely with distributed teams — I value clear communication, documented work, and predictable delivery.
-
-  <br />
-  <br />
-  Available for remote US / EU roles — ready to help your team ship high-performing storefronts that convert.
-  <br />
-  <br />
-  When I’m not building, you’ll find me watching a series or gaming on Xbox 🎮.
+  <strong>Open to remote US / EU roles — ready to join your team and ship results.</strong>
 </Text>
 
           </Stack>
