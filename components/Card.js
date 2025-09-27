@@ -24,15 +24,20 @@ import {
   FaPython,
   FaReact,
   FaSass,
+  FaShopify,
 } from 'react-icons/fa'
 import {
   SiChakraui,
   SiChartdotjs,
   SiGreensock,
+  SiGraphql,
   SiNextdotjs,
-  SiSpline,
+  SiRestapi,
+  SiShopify,
   SiTailwindcss,
   SiThreedotjs,
+  SiLiquid,
+  SiSpline,
 } from 'react-icons/si'
 import useMediaQuery from '../hook/useMediaQuery'
 import Image from 'next/image'
@@ -41,59 +46,52 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
   const getTag = (tag) => {
     let values = []
     if (tag == 'React') {
-      values[0] = 'blue'
-      values[1] = FaReact
+      values = ['blue', FaReact]
     } else if (tag == 'Python') {
-      values[0] = 'orange'
-      values[1] = FaPython
+      values = ['orange', FaPython]
     } else if (tag == 'Javascript' || tag == 'JS') {
-      values[0] = 'yellow'
-      values[1] = FaJs
+      values = ['yellow', FaJs]
     } else if (tag == 'Sass') {
-      values[0] = 'pink'
-      values[1] = FaSass
+      values = ['pink', FaSass]
     } else if (tag == 'Flask') {
-      values[0] = 'green'
-      values[1] = FaPepperHot
+      values = ['green', FaPepperHot]
     } else if (tag == 'Laravel') {
-      values[0] = 'red'
-      values[1] = FaLaravel
+      values = ['red', FaLaravel]
     } else if (tag == 'Bootstrap') {
-      values[0] = 'purple'
-      values[1] = FaBootstrap
+      values = ['purple', FaBootstrap]
     } else if (tag == 'SQL') {
-      values[0] = 'blue'
-      values[1] = FaDatabase
+      values = ['blue', FaDatabase]
     } else if (tag == 'Next.js') {
-      values[0] = 'gray'
-      values[1] = SiNextdotjs
+      values = ['gray', SiNextdotjs]
     } else if (tag == 'Chakra UI') {
-      values[0] = 'teal'
-      values[1] = SiChakraui
+      values = ['teal', SiChakraui]
     } else if (tag == 'Chart.js') {
-      values[0] = 'red'
-      values[1] = SiChartdotjs
+      values = ['red', SiChartdotjs]
     } else if (tag == 'HTML') {
-      values[0] = 'orange'
-      values[1] = FaHtml5
+      values = ['orange', FaHtml5]
     } else if (tag == 'CSS') {
-      values[0] = 'blue'
-      values[1] = FaCss3Alt
+      values = ['blue', FaCss3Alt]
     } else if (tag == 'Tailwind') {
-      values[0] = 'cyan'
-      values[1] = SiTailwindcss
+      values = ['cyan', SiTailwindcss]
     } else if (tag == 'GSAP') {
-      values[0] = 'green'
-      values[1] = SiGreensock
+      values = ['green', SiGreensock]
     } else if (tag == 'Three.js') {
-      values[0] = 'gray'
-      values[1] = SiThreedotjs
+      values = ['gray', SiThreedotjs]
     } else if (tag == 'Spline') {
-      values[0] = 'purple'
-      values[1] = SiSpline
-    } else {
-      values[0] = 'gray'
-      values[1] = FaCode
+      values = ['purple', SiSpline]
+    } 
+    // ✅ Newly Added
+    else if (tag == 'REST API' || tag == 'API') {
+      values = ['orange', SiRestapi]
+    } else if (tag == 'GraphQL') {
+      values = ['pink', SiGraphql]
+    } else if (tag == 'Liquid') {
+      values = ['teal', SiLiquid]
+    } else if (tag == 'Shopify') {
+      values = ['green', FaShopify]
+    } 
+    else {
+      values = ['gray', FaCode]
     }
     return values
   }
@@ -106,10 +104,11 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       colorScheme={getTag(item)[0]}
       size={isLargerThan800 ? 'md' : 'sm'}
     >
-      <TagLeftIcon as={getTag(item)[1]}></TagLeftIcon>
+      <TagLeftIcon as={getTag(item)[1]} />
       <TagLabel>{item}</TagLabel>
     </Tag>
   ))
+
   const handleClick = (event) => {
     ReactGA.event({
       category: 'click',
