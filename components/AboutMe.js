@@ -101,10 +101,8 @@ export default function AboutMe() {
     text="Competitive Programming"
   />
   .
-
-  <br />
-  <br />
   Available for remote roles — open to full-time & contract.
+  <br />
   <br />
   <br />
 </Text>
@@ -132,7 +130,7 @@ export default function AboutMe() {
                 w={{ base: '300px', lg: '350px' }}
                 h={{ base: '300px', lg: '350px' }}
                 objectFit="cover"
-                object-position="top"
+                objectPosition="top"
                 borderRadius="50%"
                 alt="Faizan Khalid"
                 src="/personal.jpg"
@@ -144,3 +142,4 @@ export default function AboutMe() {
     </>
   )
 }
+

@@ -52,7 +52,7 @@ export default function Navbar({ enableTransition }) {
               </NextLink>
               <NextLink passHref href="/projects">
                 <Button as="a" fontSize="16px" variant="ghost">
-                  Projects
+                 Case Studies
                 </Button>
               </NextLink>
            
