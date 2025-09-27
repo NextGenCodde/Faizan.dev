@@ -65,49 +65,34 @@ export default function AboutMe() {
             <Heading fontFamily="Ubuntu" fontSize="2xl">
               ⚡ About Me
             </Heading>
-            <Text
-              color="textSecondary"
-              fontSize={{ base: '14px', md: '16px' }}
-              whiteSpace="pre-line"
-            >
-              a Shopify Theme Developer and Full-Stack Engineer with
-              a passion for building modern, fast, and conversion-focused
-              online stores.
-              I understand what store owners and agencies are looking for:
-              <li>Themes that load fast and boost sales</li>
-              <li>Custom features built with Liquid, REST & GraphQL APIs</li>
-              <li>Responsive, pixel-perfect design that works on every device</li>
-              <li>Clean, maintainable code that’s easy for teams to scale</li>
-               <br />
-              <br /> I really liked to build stuff using{' '}
-              <MoreInfo
-                content=" hands-on experience with React, Tailwind, NodeJS, Redux, NextJS, Liquid."
-                text="tech stack"
-              />
-              Currently, I'm the MERN Stack, and Shopify Theme Developer
-              polished and production-ready. Breaking Keyboard instead of Girl's Heart. Started relationship with 'Bugs' at the age of 16. Developer for the mean of Money? No dude, Passionate to be an {' '}
-              <MoreInfo
-                content={
-                  'I really like the idea of contributing new features to open source projects that can be useful to other people.'
-                }
-                text="Open Source Contributor"
-              />
-              I'm interested in building something awesome with code and
-              automate tasks with code, currently focused on
-              <MoreInfo
-                content="Building Web and Mobile Applications using Javascript Frameworks (React and Next.js)"
-                text="Web Development,"
-              />
-              and
-              <MoreInfo
-                content="Competitive Programming helped me to sharpen my Algorithms and Problem Solving skills."
-                text="Competitive Programming"
-              />
-              <br />
-              <br />
-              When I’m not coding, you’ll probably find me watching a series on
-              Netflix, gaming on Xbox
-            </Text>
+          <Text
+  color="textSecondary"
+  fontSize={{ base: '14px', md: '16px' }}
+  whiteSpace="pre-line"
+>
+  I’m Faizan Khalid — a Shopify Theme Developer and Full-Stack Engineer who builds production-ready, conversion-focused storefronts and custom integrations.
+
+  I solve the problems that matter to store owners and teams: slow load times, fragile customizations, limited checkout flows, and poor cross-device UX. I deliver clean, maintainable Liquid themes and API integrations that are easy to extend and ship reliably to production.
+
+  My work spans theme development, headless/shopify-plus approaches, and full-stack integrations — so I can take a task from design or wireframe all the way to a tested, documented release. I follow a pragmatic process: audit → plan → implement → optimize → handoff, and I prioritize performance, accessibility, and conversion best practices.
+
+  <br />
+  <br />
+  I like to build with{' '}
+  <MoreInfo
+    content="Liquid, Shopify Admin & Storefront APIs, GraphQL, React, Next.js, Redux, Node.js, Tailwind, MongoDB, REST, Git."
+    text="this tech stack"
+  />
+  and contribute to open-source projects when possible. I’ve worked remotely with cross-border teams and understand the importance of timely communication, clear tickets, and versioned code.
+
+  <br />
+  <br />
+  I’m currently open to remote and full-time Shopify Theme Developer roles — ready to help your team ship stable, high-performing storefronts that convert.
+  <br />
+  <br />
+  When I’m not coding, I’m likely watching a series or gaming on Xbox 🎮.
+</Text>
+
           </Stack>
         </SlideUpWhenVisible>
         <SlideUpWhenVisible>
