@@ -32,11 +32,11 @@ import {
   SiGreensock,
   SiGraphql,
   SiNextdotjs,
-  SiRestapi,
+  FaServer,
   SiShopify,
   SiTailwindcss,
   SiThreedotjs,
-  SiLiquid,
+  FaTint,
   SiSpline,
 } from 'react-icons/si'
 import useMediaQuery from '../hook/useMediaQuery'
@@ -82,11 +82,11 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
     } 
     // ✅ Newly Added
     else if (tag == 'REST API' || tag == 'API') {
-      values = ['orange', SiRestapi]
+      values = ['orange', FaServer]
     } else if (tag == 'GraphQL') {
       values = ['pink', SiGraphql]
     } else if (tag == 'Liquid') {
-      values = ['teal', SiLiquid]
+      values = ['teal', FaTint]
     } else if (tag == 'Shopify') {
       values = ['green', FaShopify]
     } 
