@@ -119,7 +119,7 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
   return (
     <Stack
       minH="320px"
-      maxH="500px"
+      maxH="520px"
       bg="secondary"
       border="1px"
       borderColor={{ base: '#333', md: 'borderColor' }}
