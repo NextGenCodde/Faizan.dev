@@ -27,6 +27,7 @@ import {
   FaShopify,
   FaServer,
   FaTint,
+  FaWordpress 
 } from 'react-icons/fa'
 import {
   SiChakraui,
@@ -35,6 +36,7 @@ import {
   SiGraphql,
   SiNextdotjs,
   SiShopify,
+  SiOpenai ,
   SiTailwindcss,
   SiThreedotjs,
   SiSpline,
@@ -89,6 +91,10 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       values = ['teal', FaTint]
     } else if (tag == 'Shopify') {
       values = ['green', FaShopify]
+    } else if (tag == 'Wordpress') {
+      values = ['blue', FaWordpress]
+    } else if (tag == 'CHATGPT API') {
+      values = ['cyan', SiOpenai ]
     } 
     else {
       values = ['gray', FaCode]

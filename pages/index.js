@@ -147,13 +147,13 @@ export async function getStaticProps() {
      
         {
           fields: {
-            title: "Helion",
-            slug: "helion",
-            description: "A beautiful portfolio-style website with responsive layout and smooth scrolling effects.",
-            imageUrl: "/helion.png",
-            tags: ["Javascript", "Tailwind", "HTML"],
+            title: "PSX Arena — AI-Powered Stock Analysis Platform ",
+            slug: "psx-arena",
+            description: "Developed PSX Arena, a stock and crypto analysis platform where users can upload their trading charts and receive AI-generated technical analysis reports powered by the ChatGPT API. Built using WordPress and JavaScript, featuring real-time chart uploads, multiple market modes (stocks & crypto), and an intelligent bot system that delivers instant insights for traders.",
+            imageUrl: "/stock-market.png",
+            tags: ["Javascript", "CHATGPT API", "Wordpress"],
             order: 2,
-            deployLink: "https://nextgencodde.github.io/helion/"
+            deployLink: "https://psxarena.site/technical-analysis/"
           }
         },
         {
