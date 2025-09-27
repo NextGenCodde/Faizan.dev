@@ -70,27 +70,34 @@ export default function AboutMe() {
   fontSize={{ base: '14px', md: '16px' }}
   whiteSpace="pre-line"
 >
-  I’m Faizan Khalid — a Shopify Theme Developer and Full-Stack Engineer who builds production-ready, conversion-focused storefronts and custom integrations.
-
-  I solve the problems that matter to store owners and teams: slow load times, fragile customizations, limited checkout flows, and poor cross-device UX. I deliver clean, maintainable Liquid themes and API integrations that are easy to extend and ship reliably to production.
-
-  My work spans theme development, headless/shopify-plus approaches, and full-stack integrations — so I can take a task from design or wireframe all the way to a tested, documented release. I follow a pragmatic process: audit → plan → implement → optimize → handoff, and I prioritize performance, accessibility, and conversion best practices.
+  I’m <strong>Faizan Khalid</strong> — a <strong>Shopify Theme Developer & UI/UX-focused Frontend Engineer</strong> who builds production-ready, conversion-first storefronts and reliable API integrations.
 
   <br />
   <br />
-  I like to build with{' '}
+  I help teams solve the problems that slow growth and frustrate customers:
+  <br />• <strong>Faster load times</strong> and improved Core Web Vitals.
+  <br />• <strong>Higher conversions</strong> through clearer UX and checkout flows.
+  <br />• <strong>Stable, maintainable customizations</strong> that scale with the business.
+
+  <br />
+  <br />
+  I deliver clean, maintainable <strong>Liquid themes</strong>, headless / Shopify Plus solutions, and full-stack integrations. My typical workflow: <strong>audit → plan → implement → optimize → handoff</strong> — always prioritizing performance, accessibility, and measurable business outcomes.
+
+  <br />
+  <br />
+  I build with{' '}
   <MoreInfo
     content="Liquid, Shopify Admin & Storefront APIs, GraphQL, React, Next.js, Redux, Node.js, Tailwind, MongoDB, REST, Git."
     text="this tech stack"
   />
-  and contribute to open-source projects when possible. I’ve worked remotely with cross-border teams and understand the importance of timely communication, clear tickets, and versioned code.
+  and have experience working remotely with distributed teams — I value clear communication, documented work, and predictable delivery.
 
   <br />
   <br />
-  I’m currently open to remote and full-time Shopify Theme Developer roles — ready to help your team ship stable, high-performing storefronts that convert.
+  Available for remote US / EU roles — ready to help your team ship high-performing storefronts that convert.
   <br />
   <br />
-  When I’m not coding, I’m likely watching a series or gaming on Xbox 🎮.
+  When I’m not building, you’ll find me watching a series or gaming on Xbox 🎮.
 </Text>
 
           </Stack>
