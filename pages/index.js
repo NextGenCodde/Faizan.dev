@@ -139,7 +139,7 @@ export async function getStaticProps() {
             slug: "api-integration",
             description: "Implemented a certificate search feature for Altura Diamonds that lets users enter a gem’s certificate number, queries the Nivoda GraphQL API, and immediately redirects to the matching product page. I built a secure Express backend (token auth, environment variables, CORS), integrated it with the Shopify frontend",
             imageUrl: "/api-integration.png",
-            tags: ["Rest API", "GraphQL", "Shopify Liquid"],
+            tags: ["REST API", "GraphQL", "Liquid"],
             order: 1,
             deployLink: "https://alturadiamonds.com/pages/lab-grown-diamond-ring-design-studio?stage=Select+Setting"
           }
