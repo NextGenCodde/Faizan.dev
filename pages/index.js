@@ -112,7 +112,7 @@ export async function getStaticProps() {
           fields: {
             emoji: "💼",
             description: "Freelance Developer — Open to remote & full-time",
-            company: "developer roles.",
+            company: "Developer Roles.",
             companyUrl: null
           }
         }
@@ -135,7 +135,7 @@ export async function getStaticProps() {
       items: [
         {
           fields: {
-            title: "API Integration — Altura Diamonds",
+            title: "Altura Diamonds — Certificate Lookup & Product Deep-Link",
             slug: "api-integration",
             description: "Implemented a certificate search feature for Altura Diamonds that lets users enter a gem’s certificate number, queries the Nivoda GraphQL API, and immediately redirects to the matching product page. I built a secure Express backend (token auth, environment variables, CORS), integrated it with the Shopify frontend",
             imageUrl: "/api-integration.png",
@@ -168,13 +168,13 @@ export async function getStaticProps() {
         },
         {
           fields: {
-            title: "Music Player",
-            slug: "music-player",
-            description: "Collecting of many songs you can listen,stop,resume, and many other functionalities",
-            imageUrl: "/music-player.png",
-            tags: ["Bootstrap", "Javascript"],
+            title: "Animated Frontend Experience Built with React & GSAP —  Frames",
+            slug: "frames-creative",
+            description: "I developed the Frames Creative site as a front-end/creative project using React, Redux, and React Router, with rich animations powered by GSAP and Framer Motion. Styled entirely with Tailwind CSS, the site features dynamic transitions, scroll-based animations, and responsive layouts. I also implemented security optimizations like HSTS, integrated Lucide icon scripts and Google Fonts via API/CDN, and deployed the app using Netlify for fast, scalable hosting.",
+            imageUrl: "/frames.png",
+            tags: ["React", "Redux" , "Tailwind CSS"],
             order: 4,
-            deployLink: "https://nextgencodde.github.io/music_player/music.html"
+            deployLink: "https://frames-creative.netlify.app/"
           }
         }
       ]
