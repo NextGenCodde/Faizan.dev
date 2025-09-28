@@ -36,6 +36,7 @@ import {
   SiGraphql,
   SiNextdotjs,
   SiShopify,
+  SiRedux ,
   SiOpenai ,
   SiTailwindcss,
   SiThreedotjs,
@@ -73,7 +74,7 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       values = ['orange', FaHtml5]
     } else if (tag == 'CSS') {
       values = ['blue', FaCss3Alt]
-    } else if (tag == 'Tailwind') {
+    } else if (tag == 'Tailwind CSS') {
       values = ['cyan', SiTailwindcss]
     } else if (tag == 'GSAP') {
       values = ['green', SiGreensock]
@@ -95,6 +96,8 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       values = ['blue', FaWordpress]
     } else if (tag == 'CHATGPT API') {
       values = ['cyan', SiOpenai ]
+    }  else if (tag == 'Redux') {
+      values = ['teal', SiRedux ]
     } 
     else {
       values = ['gray', FaCode]
