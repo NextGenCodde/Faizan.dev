@@ -153,7 +153,7 @@ export async function getStaticProps() {
             slug: "neodrift-3d",
             summary: "3D template using Spline or three.js with cool Effects and Animations.",
             image: "/neodrift.png",
-            techStack: "Html, CSS , Three.js , Spline",
+            techStack: "HTML, CSS , Three.js , Spline",
             date: "2023-12-28",
             deployLink: "https://nextgencodde.github.io/neodrift/"
           }
@@ -185,19 +185,6 @@ export async function getStaticProps() {
           }
         }
       },
-      {
-        post: {
-          title: "Music Player",
-          frontmatter: {
-            slug: "music-player",
-            summary: "A simple and elegant music player interface built with a focus on clean design and usability.",
-            image: "/music-player.png",
-            techStack: "Bootstrap, Javascript",
-            date: "2023-12-28",
-            deployLink: "https://nextgencodde.github.io/music_player/music.html"
-          }
-        }
-      } ,
       {
         post: {
           title: "Tumie",
