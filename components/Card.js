@@ -74,6 +74,8 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       values = ['orange', FaHtml5]
     } else if (tag == 'CSS') {
       values = ['blue', FaCss3Alt]
+    } else if (tag == 'Vanilla CSS') {
+      values = ['blue', FaCss3Alt]
     } else if (tag == 'Tailwind CSS') {
       values = ['cyan', SiTailwindcss]
     } else if (tag == 'GSAP') {
@@ -97,7 +99,7 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
     } else if (tag == 'CHATGPT API') {
       values = ['cyan', SiOpenai ]
     }  else if (tag == 'Redux') {
-      values = ['teal', SiRedux ]
+      values = ['orange', SiRedux ]
     } 
     else {
       values = ['gray', FaCode]

@@ -168,13 +168,13 @@ export async function getStaticProps() {
         },
         {
           fields: {
-            title: "Animated Frontend Experience Built with React & GSAP —  Frames",
-            slug: "frames-creative",
-            description: "I developed the Frames Creative site as a front-end/creative project using React, Redux, and React Router, with rich animations powered by GSAP and Framer Motion. Styled entirely with Tailwind CSS, the site features dynamic transitions, scroll-based animations, and responsive layouts. I also implemented security optimizations like HSTS, integrated Lucide icon scripts and Google Fonts via API/CDN, and deployed the app using Netlify for fast, scalable hosting.",
-            imageUrl: "/frames.png",
-            tags: ["React", "Redux" , "Tailwind CSS"],
+            title: "Snocks Product Gallery — Dynamic Shopify Section with Metafields",
+            slug: "Snocks",
+            description: "Developed a custom Shopify product gallery for the Snocks store featuring image info bars fully controlled by metafields. This setup allows the client to easily update image details from the Shopify admin while maintaining a clean, responsive layout and smooth user experience.",
+            imageUrl: "/snocks.png",
+            tags: ["Liquid", "Javascript" , "Vanilla CSS"],
             order: 4,
-            deployLink: "https://frames-creative.netlify.app/"
+            deployLink: "https://snocks.com/de-ch/products/high-waist-leggings"
           }
         }
       ]

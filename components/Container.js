@@ -36,7 +36,7 @@ const Container = ({ enableTransition, children }) => {
             <br />
             Built with{' '}
             <chakra.span color="button1" fontWeight="semibold">
-              React.js
+              Next.js
             </chakra.span>{' '}
             &{' '}
             <chakra.span color="button1" fontWeight="semibold">

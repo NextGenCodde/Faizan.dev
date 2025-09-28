@@ -95,7 +95,7 @@ export default function Projects({ projects }) {
                 />
               ))}
           </SimpleGrid>
-          <Box textAlign="center" py={10}>
+          {/* <Box textAlign="center" py={10}>
             <Button
               as="a"
               href="https://nextgencodde.github.io/Projects/"
@@ -108,7 +108,7 @@ export default function Projects({ projects }) {
             >
               More Projects
             </Button>
-          </Box>
+          </Box> */}
         </Stack>
       </Container>
     </>
@@ -135,14 +135,14 @@ export async function getStaticProps() {
       },
       {
         post: {
-          title: "Maher Digital Services",
+          title: "Animated Frontend Experience Built with React & GSAP —  Frames",
           frontmatter: {
-            slug: "maher-digital-services",
-            summary: "Service-based agency website for digital tools, hosting, SEO, and web services.",
-            image: "/maher-digital-service.png",
-            techStack: "Html, CSS , Javascript",
+            slug: "frames-creative",
+            summary: "I developed the Frames Creative site as a front-end/creative project using React, Redux, and React Router, with rich animations powered by GSAP and Framer Motion. Styled entirely with Tailwind CSS, the site features dynamic transitions, scroll-based animations, and responsive layouts. I also implemented security optimizations like HSTS, integrated Lucide icon scripts and Google Fonts via API/CDN, and deployed the app using Netlify for fast, scalable hosting.",
+            image: "/frames.png",
+            techStack: "React, Redux , Tailwind CSS",
             date: "2023-12-28",
-            deployLink: "https://maherdigital.site/"
+            deployLink: "https://frames-creative.netlify.app/"
           }
         } 
       } ,
