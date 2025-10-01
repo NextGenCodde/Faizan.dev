@@ -83,8 +83,8 @@ export default function Introduction({ introduction }) {
           </Box>{' '}
           Self-driven Developer<br/>{' '}
           {isLargerThan800
-            ? 'From wireframes to checkout — I build fast, conversion-focused Web Apps.'
-            : 'From wireframes to checkout — I build fast, conversion-focused Web Apps.'}
+            ?'From wireframes to checkout — I build fast, conversion-focused Web Apps.'
+            :'From wireframes to checkout — I build fast, conversion-focused Web Apps.'}
         </Heading>
       </SlideFade>
 
