@@ -8,7 +8,7 @@ import {
   SlideFade,
   Image,
 } from '@chakra-ui/react'
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaEnvelope, FaFileAlt , FaLinkedin } from 'react-icons/fa'
 import useMediaQuery from '../hook/useMediaQuery'
 import ReactGA from 'react-ga4'
 
