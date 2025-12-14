@@ -98,7 +98,7 @@ export default function Navbar({ enableTransition }) {
               <Bracket>&#123;</Bracket> F <Bracket>&#125;</Bracket>
             </Text>
           </NextLink>
-          {isLargerThan768 ? (
+          {/* {isLargerThan768 ? (
             <Box mr={7} color="displayColor">
               <NextLink passHref href="/">
                 <Button as="a" p="4" fontSize="16px" variant="ghost">
@@ -113,7 +113,7 @@ export default function Navbar({ enableTransition }) {
             </Box>
           ) : (
             <Icon as={AiOutlineMenu} w={7} h={7} onClick={onOpen} />
-          )}
+          )} */}
         </Flex>
       </Slide>
       <NavbarDrawer />
