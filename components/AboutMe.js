@@ -128,7 +128,7 @@ export default function AboutMe() {
               />
               <Image
                 w={{ base: '300px', lg: '400px' }}
-                h={{ base: '300px', lg: '400px' }}
+                h={{ base: '300px', lg: '350px' }}
                 objectFit="cover"
                 objectPosition="bottom"
                 borderRadius="50%"
