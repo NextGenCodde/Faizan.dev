@@ -127,13 +127,13 @@ export default function AboutMe() {
                 src="https://svgsilh.com/svg/26432.svg"
               />
               <Image
-                w={{ base: '300px', lg: '350px' }}
-                h={{ base: '300px', lg: '350px' }}
+                w={{ base: '300px', lg: '400px' }}
+                h={{ base: '300px', lg: '400px' }}
                 objectFit="cover"
-                objectPosition="top"
+                objectPosition="bottom"
                 borderRadius="50%"
                 alt="Faizan Khalid"
-                src="/personal.jpg"
+                src="/personal.png"
               />
             </Box>
           </Flex>
