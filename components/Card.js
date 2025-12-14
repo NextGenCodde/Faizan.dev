@@ -92,6 +92,8 @@ export default function Cards({ imageURL, title, slug, desc, tag, deployLink }) 
       values = ['pink', SiGraphql]
     } else if (tag == 'Liquid') {
       values = ['teal', FaTint]
+    } else if (tag == 'Shopify (Liquid)') {
+      values = ['teal', FaTint]
     } else if (tag == 'Shopify') {
       values = ['green', FaShopify]
     } else if (tag == 'Wordpress') {

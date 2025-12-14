@@ -43,7 +43,7 @@ export default function Navbar({ enableTransition }) {
             <Bracket>&#123;</Bracket>F<Bracket>&#125;</Bracket>
           </DrawerHeader>
 
-          <DrawerBody>
+          {/* <DrawerBody>
             <Stack spacing="24px">
               <NextLink passHref href="/">
                 <Button as="a" fontSize="16px" variant="ghost">
@@ -57,7 +57,7 @@ export default function Navbar({ enableTransition }) {
               </NextLink>
            
             </Stack>
-          </DrawerBody>
+          </DrawerBody> */}
         </DrawerContent>
       </Drawer>
     </>

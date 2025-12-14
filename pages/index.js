@@ -134,13 +134,24 @@ export async function getStaticProps() {
     data = {
       items: [
         {
+             fields: {
+               title: "Hands Down Coffee — Shopify Store (Khaby Lame Brand)",
+               slug: "hands-down-coffee",
+               description: "Developed and optimized the Shopify product experience for Hands Down Coffee, a global coffee brand by Khaby Lame. Worked on theme customization, product page layout, responsiveness, and performance to deliver a clean, conversion-focused storefront showcasing the Coffee Bag Discovery Box with a premium, minimal UI aligned to the brand identity.",
+               imageUrl: "/hands-down-coffee.jpg",
+               tags: ["Shopify (Liquid)", "GSAP" , "Javascript"],
+               order: 1,
+               deployLink: "https://handsdowncoffee.com/"
+             }
+        },
+        {
           fields: {
             title: "Altura Diamonds — Certificate Lookup & Product Deep-Link",
             slug: "api-integration",
             description: "Implemented a certificate search feature for Altura Diamonds that lets users enter a gem’s certificate number, queries the Nivoda GraphQL API, and immediately redirects to the matching product page. I built a secure Express backend (token auth, environment variables, CORS), integrated it with the Shopify frontend",
             imageUrl: "/api-integration.png",
             tags: ["REST API", "GraphQL", "Liquid"],
-            order: 1,
+            order: 2,
             deployLink: "https://alturadiamonds.com/pages/lab-grown-diamond-ring-design-studio?stage=Select+Setting"
           }
         },
@@ -151,21 +162,10 @@ export async function getStaticProps() {
             description: "For 1090.co.uk, I developed custom Shopify theme enhancements using Liquid, JavaScript, and CSS to elevate the user experience. I added dynamic price and discount displays, responsive product sliders, and real-time shipping date features. I built modular, editable theme sections so the client can easily manage content without developer intervention, while ensuring seamless integration and optimal performance across devices.",
             imageUrl: "/1090.png",
             tags: ["Shopify", "Liquid", "Javascript"],
-            order: 2,
+            order: 3,
             deployLink: "https://www.1090.co.uk/"
           }
         } , 
-        {
-             fields: {
-               title: "PSX Arena — AI-Powered Stock Analysis Platform ",
-               slug: "psx-arena",
-               description: "Developed PSX Arena, a stock and crypto analysis platform where users can upload their trading charts and receive AI-generated technical analysis reports powered by the ChatGPT API. Built using WordPress and JavaScript, featuring real-time chart uploads, multiple market modes (stocks & crypto), and an intelligent bot system that delivers instant insights for traders.",
-               imageUrl: "/stock-market.png",
-               tags: ["Javascript", "CHATGPT API", "Wordpress"],
-               order: 3,
-               deployLink: "https://psxarena.site/technical-analysis/"
-             }
-        },
         {
           fields: {
             title: "Snocks Product Gallery — Dynamic Shopify Section with Metafields",

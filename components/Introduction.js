@@ -79,9 +79,9 @@ export default function Introduction({ introduction }) {
           whiteSpace="pre-wrap"
         >
           <Box as="span" color="displayColor">
-            Frontend Engineer
+            Shopify Developer
           </Box>{' '}
-          Self-driven Developer<br/>
+          Self-driven Engineer<br/>
           {isLargerThan800
             ?'From wireframes to checkout — I build fast, conversion-focused Web Apps.'
             :'From wireframes to checkout — I build fast, conversion-focused Web Apps.'}
@@ -130,15 +130,18 @@ export default function Introduction({ introduction }) {
         in={true}
       >
         <Stack isInline spacing={4}>
-          <Link href="https://github.com/NextGenCodde/" isExternal>
+          <Link
+            href="https://drive.google.com/file/d/1cA-kvbSmtBSYy5s_xg7zDTc9pjbxCzem/view?usp=sharing"
+            isExternal
+            onClick={() => handleClick('contact_resume')}
+          >
             <Button
               pos="static"
               color="white"
-              leftIcon={<FaGithub color="#3CCF91" />}
-              onClick={() => handleClick('introduction_github')}
+              leftIcon={<FaFileAlt fill="#3CCF91" />}
               size={isLargerThan800 ? 'md' : 'sm'}
             >
-              Github
+              Resume
             </Button>
           </Link>
           <Link href="http://linkedin.com/in/faizan-khalid-dev/" isExternal>

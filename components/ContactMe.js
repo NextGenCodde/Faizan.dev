@@ -71,18 +71,15 @@ export default function ContactMe({ contactMe }) {
               Email
             </Button>
           </Link>
-          <Link
-            href="https://drive.google.com/file/d/1jDKaptgvA0pVnqoAuOlXpz-J09mz6spj/view?usp=sharing"
-            isExternal
-            onClick={() => handleClick('contact_resume')}
-          >
+             <Link href="https://github.com/NextGenCodde/" isExternal>
             <Button
               pos="static"
               color="white"
-              leftIcon={<FaFileAlt fill="#3CCF91" />}
+              leftIcon={<FaGithub color="#3CCF91" />}
+              onClick={() => handleClick('introduction_github')}
               size={isLargerThan800 ? 'md' : 'sm'}
             >
-              Resume
+              Github
             </Button>
           </Link>
         </Stack>
